@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Integra Bio e Aplicativo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #0f0;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0f0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .pacote {
+      background-color: #111;
+      border: 1px solid #0f0;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+
+    .pacote h2 {
+      margin-top: 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin-top: 10px;
+      background-color: #0f0;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0c0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Integra Bio e Aplicativo</h1>
+    <p>Escolha o pacote ideal para o seu negócio</p>
+
+    <div class="pacote">
+      <h2>Pacote 1: Link para Bio no Instagram</h2>
+      <p>Inclui personalização, menus e integração com WhatsApp, redes sociais e site.</p>
+      <a class="btn" href="https://wa.me/5585996341433?text=Olá,%20gostaria%20de%20contratar%20o%20Pacote%201%20(Link%20para%20Bio%20no%20Instagram)." target="_blank">Quero este pacote</a>
+    </div>
+
+    <div class="pacote">
+      <h2>Pacote 2: Aplicativo de Controle</h2>
+      <p>Desenvolvimento de app no AppSheet para gestão simples (estoque, pedidos, etc).</p>
+      <a class="btn" href="https://wa.me/5585996341433?text=Olá,%20tenho%20interesse%20no%20Pacote%202%20(Aplicativo%20de%20Controle)." target="_blank">Quero este pacote</a>
+    </div>
+
+    <div class="pacote">
+      <h2>Pacote 3: Completo</h2>
+      <p>Inclui Link para Bio no Instagram + Aplicativo de Controle personalizado.</p>
+      <a class="btn" href="https://wa.me/5585996341433?text=Olá,%20quero%20o%20Pacote%203%20completo%20(Link%20+%20App)." target="_blank">Quero este pacote</a>
+    </div>
+  </div>
+</body>
+</html>
